@@ -1,0 +1,28 @@
+nav{
+    height: 1200px;
+    width: 100%;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.img-1{
+    margin-top: 10px;
+}
+.fl{
+    float: left;
+}
+
+.flr{
+    float: right;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
