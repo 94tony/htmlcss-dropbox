@@ -6,16 +6,15 @@
 header{
     width: 1200px;
     margin: auto;
-    height: 50vh;
-    background-color: lightcyan;
-    
+    height: 60vh;
+    background-color: lightcyan
     
 }
 /* nav */
 nav{
     background-color: white;
     width: 100%;
-    border: 1px black solid;    
+   
 }
 .clearfix::after{
     content: "";
@@ -53,6 +52,8 @@ nav ul li{
 .titolo-main{
     text-align: start;
     float: left;
+    font-size: 40px;
+    margin-top: 20px;
 }
 .dimensioni-text{
     width: 500px;
@@ -68,13 +69,14 @@ nav ul li{
 .img2{
     width: 700px;
     margin-top: 100px;
+    vertical-align: super;
 }
 
 main{
     width: 700px;
     margin: auto;
    
-   margin-top: 200px;
+   margin-top: 300px;
 }
 
 
@@ -88,7 +90,7 @@ main{
 .bottoni{
     margin-top: 20px;
 }
-/* inizio liste */
+/* inizio colonne */
 .list-left>li{
     display: inline-block;
 }
@@ -101,7 +103,9 @@ main{
 }
 
 .bordolist{
-    border:1px solid black;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
     text-align: center;
     width: 100%;
     padding: 2px ;
@@ -133,6 +137,164 @@ main{
     text-align: center;
 }
 
-h2{
+.colonna li h2{
     text-align: center;
+}
+
+.colonna-orizz{
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;  
+      
+   
+    
+}
+
+
+
+
+.ti-centro{
+    text-align: center;
+    
+}
+
+.sezione-orizzontale{
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+    
+   
+}  
+
+.foto-testo{
+    width: 700px;
+    margin: auto;
+}
+
+
+
+.foto-testo div>img{
+    width: 340px
+}
+
+.testo-partner {
+    background-color: black;
+    width: 340px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.sei-flottanti{
+    width: 700px;
+    margin: auto;
+}
+
+#img-tempo{
+    height: 150px;
+    width: 150px;
+   
+}
+
+.container-float{
+    width: calc(100% / 3 - 20px);
+    margin: 10px 10px;
+}
+
+.cards{
+    width: calc( 1200px / 3 );
+    
+    height: 400px;
+    background: plum;
+    
+}
+
+.card{
+    width: calc(100% / 2);
+    height: 200px;
+    
+}
+
+.griglia{
+width: 1200px;
+
+margin: auto;
+}
+
+.a :nth-child(1){
+    background-color: green;
+}
+
+
+.a :nth-child(2){
+    background-color: brown;
+}
+
+
+.a :nth-child(3){
+    background-color: blue
+}
+
+
+.a :nth-child(4){
+    background-color: orange;
+}
+
+
+.b :nth-child(1){
+    background-color: red;
+}
+
+
+.b :nth-child(2){
+    background-color: lightcyan;
+}
+
+
+.b :nth-child(3){
+    background-color: rgb(4, 4, 53)
+}
+
+
+.b :nth-child(4){
+    background-color: yellow;
+}
+
+.griglia-bottom{
+    width: 1200px;
+    
+    height: 200px;
+    background: cornflowerblue;
+}
+
+
+.faq{
+width: 700px;
+margin: auto;
+}
+
+.questions {
+    width: 95%;
+    font-size: 13px;
+}
+
+.flag{
+    width: 5%;
+}
+
+.container-questions{
+    padding: 20px 0px;
+}
+
+.nav-inferiore{
+    width: 1200px;
+    background: black;
+    height: 800px;
+    margin: auto;
+}
+
+.white{
+    color: white;
+    margin: 180px 30px 0px 120px;
+    
+ 
 }
