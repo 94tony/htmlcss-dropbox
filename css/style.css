@@ -6,16 +6,29 @@
 header{
     width: 1200px;
     margin: auto;
-    height: 60vh;
+    height: 80vh;
     background-color: lightcyan
     
 }
+
+
+.buttonblue{
+    background-color: rgb(23, 120, 247);
+    padding: 10px 15px;
+    border: none;
+    color: white;
+}
+
+
+
 /* nav */
 nav{
+
     background-color: white;
-    width: 100%;
-   
+    width: 100%; 
 }
+   
+
 .clearfix::after{
     content: "";
     display: table;
@@ -52,24 +65,42 @@ nav ul li{
 .titolo-main{
     text-align: start;
     float: left;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 20px;
+    padding-left: 100px;
+    line-height: 50px;
+  
 }
 .dimensioni-text{
     width: 500px;
     height:500px;
     padding-top: 10px;
-    padding: 30px 30px;
-    text-align: left;
+    padding: 10px  50px 0px 100px;
+    
     float: left;
 }
 
+#underbutton{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+#freccia-under{
+margin-top: 10px;
+font-size: 40px;
+} 
+.navbutton{
     
+    
+    color: white;
+    margin-top: 20px;
+}
+
 
 .img2{
     width: 700px;
     margin-top: 100px;
-    vertical-align: super;
+    padding-left: 40px;
 }
 
 main{
@@ -149,8 +180,23 @@ main{
    
     
 }
+.orizz-left{
+    padding-left: 15px;
+}
+.orizz-left>h2{
+font-size: 17px;
+}
+.orizz-left>h3{
+    font-size: 14px;
+}
 
+.orizz-left>p{
+    font-size: 10px;
+}
 
+.orizz-button{
+    margin-right: 20px;
+}
 
 
 .ti-centro{
@@ -162,6 +208,7 @@ main{
     width: 700px;
     margin: auto;
     border: 1px solid black;
+    height: 140px;
     
    
 }  
